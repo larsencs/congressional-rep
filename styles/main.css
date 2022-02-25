@@ -1,0 +1,49 @@
+main{
+    display:flex;
+    background-color: #c4a3a3;
+}
+header{
+    background-color: #fa2020;
+    height: 4em;
+}
+aside{
+    width: 15%;
+    background-color: #e87474;
+    margin: 1em;
+}
+aside article{
+    margin: 5px;
+}
+.images{
+    display:flex;
+    flex-wrap: nowrap;
+    margin: 1em;
+    padding: 1em;
+    height: 40em;
+    background-size: cover;
+}
+.images-secondary{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.images-secondary img{
+    width: 60%;
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-between;
+    object-fit: cover;
+}
+#marsha-three{
+    order: -1;
+    width: 40%;
+}
+footer{
+    background-color: #fa2020;
+    height: 2em;
+}
+/* Colors
+deep red: FA2020
+pink: E87474
+gray pink: C4A3A3
+gray red: 826969
+gray: 8f7474 */
